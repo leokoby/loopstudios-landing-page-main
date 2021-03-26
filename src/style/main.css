@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 16px;
+   
+}
+h1,h2,h3,h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p{
+    font-family: 'Alata',sans-serif;
+}
+
+:root{
+   --white:#fff;
+   --Black: hsl(0, 0%, 0%);
+   --DarkGray: hsl(0, 0%, 55%);
+   --LightGray: hsl(0, 0%, 91%);
+}
