@@ -1,3 +1,37 @@
+@media(max-width:1000px){
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px 0 0 0;
+    }
+    .text-info{
+        position: relative;
+        top: 40px;
+        right:0px;
+        left: auto;
+    
+        max-width: 100%;
+        height: 100%;
+        padding: 10px 0 0 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-info h1{
+        text-align: center;
+    }
+    
+    .text-info p{
+       text-align: center;
+    }
+}
+
+
+
 @media(max-width: 690px){
     .top-container{
         background: url('../../images/mobile/image-hero.jpg') no-repeat;
@@ -9,6 +43,7 @@
     .header-content .btn-menu{
         display: block;
         z-index: 1;
+        padding: 3%;
     }
     .header-content .menu-container {
         width: 100%;
@@ -28,6 +63,7 @@
         font-size: 2.4rem; 
         font-family: 'Josefin Sans', sans-serif;
         color:grey;
+        text-transform: uppercase;
     }
     .header-content .menu-container .menu-links .item-menu:hover{
        color: #fff;
@@ -35,5 +71,152 @@
     .header-content .menu-container .menu-links .item-menu::after{
         background: transparent;
     }
+
+    .text-top-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -100px;
+    }
+    .text-top-container h1{
+      font-size: 3rem;
+    } 
+}
+/* Fim Header / Top Container */
+
+@media(max-width: 690px){
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 150px 0 0 0;
+    }
+    .text-info{
+        position: relative;
+        top: 40px;
+        right:0px;
+        left: auto;
     
+        max-width: 100%;
+        height: 100%;
+        padding: 10px 0 0 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-info h1{
+        text-align: center;
+    }
+    
+    .text-info p{
+       text-align: center;
+    }
+    .img-info{
+       background-image: url('../../images/mobile/image-interactive.jpg');
+       background-position: center;
+       background-size: 100% 70%;
+       width: 100%;
+    }
+}
+
+/* Fim INFO */
+
+@media(max-width:690px){
+    .our-creations-container {
+        position: relative;
+        margin-bottom: 110px;
+    }
+    .our-creations-content .row{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .our-creations-content .row span a{
+        position: absolute;
+        bottom: -85px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        
+    }
+    .list-creations{
+        width: 100%;
+        height: 100%;
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        height: 240px;
+    }
+    .box:nth-child(1){
+        background-image: url('../../images/mobile/image-deep-earth.jpg');
+    }
+    .box:nth-child(2){
+        background-image: url('../../images/mobile/image-night-arcade.jpg');
+    }
+    .box:nth-child(3){
+        background-image: url('../../images/mobile/image-soccer-team.jpg');
+    }
+    .box:nth-child(4){
+        background-image: url('../../images/mobile/image-grid.jpg');
+    }
+    .box:nth-child(5){
+        background-image: url('../../images/mobile/image-from-above.jpg');
+    }
+    .box:nth-child(6){
+        background-image: url('../../images/mobile/image-pocket-borealis.jpg');
+    }
+    .box:nth-child(7){
+        background-image: url('../../images/mobile/image-curiosity.jpg');
+    }
+    .box:nth-child(8){
+        background-image: url('../../images/mobile/image-fisheye.jpg');
+    }
+    .img-title{
+   
+        position:absolute;
+        left: 14%;
+        top:0;
+        
+        margin-top: 25%;
+        margin-left: -10%; 
+       
+        z-index: 2;
+        color: var(--LightGray);
+        text-transform: uppercase;
+        
+    }
+}
+/* FIM CREATIONS */
+
+
+@media(max-width:690px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-content .col-left,
+    .footer-content .col-right
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-content .col-left nav a{
+        display: block;
+        text-align: center;
+    }
+    .footer-content .col-right{
+        margin-top: 40px;
+    }
 }

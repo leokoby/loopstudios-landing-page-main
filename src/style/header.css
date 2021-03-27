@@ -18,6 +18,9 @@
     justify-content: space-between;
     margin: 0 auto;
 }
+.header-content .logo{
+    padding: 0 2%;
+}
 .header-content .btn-menu{
     font-size: 3rem;
     text-align: center;
