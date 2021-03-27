@@ -9,32 +9,39 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Loopstudios landing page</title>
     <link rel="stylesheet" href="./src/style/main.css" />
     <link rel="stylesheet" href="./src/style/header.css" />
     <link rel="stylesheet" href="./src/style/index.css" />
+    <link rel="stylesheet" href="./src/style/responsive.css" />
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   </head>
   <body>
     <section class="top-container">
       <header class="header-container">
         <div class="header-content">
-          <a href="index.html">
+          <a href="index.html" class="logo">
             <img src="./images/logo.svg" alt="logo" />
           </a>
-          <nav>
-            <a href="#" class="menu-link">About</a>
-            <a href="#" class="menu-link">Careers</a>
-            <a href="#" class="menu-link">Events</a>
-            <a href="#" class="menu-link">Products</a>
-            <a href="#" class="menu-link">Support</a>
+          <nav id="menu-container" class="menu-container">
+            <div class="menu-links">
+              <a href="#" class="item-menu">About</a>
+              <a href="#" class="item-menu">Careers</a>
+              <a href="#" class="item-menu">Events</a>
+              <a href="#" class="item-menu">Products</a>
+              <a href="#" class="item-menu">Support</a>
+            </div>
           </nav>
+          <div class="btn-menu" >
+              <i class="fas fa-bars"></i>
+          </div>
         </div>
       </header>
       <div class="text-top-container">
@@ -159,6 +166,7 @@
         </div>
       </div>
     </footer>
+    <script src="./src/js/menu.js"></script>
     <!-- About
   Careers
   Events

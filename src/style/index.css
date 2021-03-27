@@ -1,13 +1,3 @@
-/* .main-container{
-    padding: 5% 10%;
-    position: relative;
-    max-width: 1440px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;   
-} */
-
 .main-container{
     max-width: 1440px;
     padding: 0 30px;
@@ -39,8 +29,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* justify-content: center; */
-
     
 }
 .text-info h1{
@@ -53,7 +41,12 @@
 .text-info p{
     color: hsl(0, 0%, 55%);
     font-size: 1rem;
+    text-align: justify;
 }
+
+/* ---------END INFO--------- */
+
+
 
 .our-creations-container{
     margin-top:200px;
@@ -140,6 +133,11 @@
     font-size: 1.8rem;
     width: 80%;
 }
+
+
+
+/* ---------END OUR CREATIONS--------- */
+
 
 .footer-container{
     background-color: black;

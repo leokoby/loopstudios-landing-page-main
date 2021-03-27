@@ -16,10 +16,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1440px;
     margin: 0 auto;
 }
-.menu-link {
+.header-content .btn-menu{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.item-menu {
     color: white;
     font-family: 'Alata', sans-serif;
     padding: 1rem 1rem;
@@ -27,7 +34,7 @@
     position: relative;
 }
 
-.menu-link::after{
+.item-menu::after{
    content: '';
    width: 40%;
    height: 3px;
@@ -39,9 +46,11 @@
    margin: 0 auto;
    transition: 200ms all ease-in;
 }
-.menu-link:hover::after{
+.item-menu:hover::after{
     background-color: #fff;
 }
+
+
 
 .text-top-container{
     max-width: 1440px;
