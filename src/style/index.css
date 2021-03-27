@@ -124,6 +124,7 @@
 .box:nth-child(8)
 {
     background-repeat: no-repeat;
+    background-blend-mode: overlay black;
     /* background-size: contain; */
     width: 100%;
 }
@@ -154,14 +155,14 @@
 }
 
 .box:hover{
-    filter:opacity(.3);
+    filter:opacity(.4);
     transition: 300ms all ease-in;
     
 }
 .box:hover .img-title{
-    
-    color: rgb(68, 68, 68); 
+    color: rgb(82, 82, 82); 
     transition: 300ms all ease-in;
+    
 }
 .img-title{ 
     position:absolute;
@@ -175,10 +176,11 @@
     color: var(--LightGray);
     text-transform: uppercase;
     
+    
 }
 
 .img-title p{
-    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
     
