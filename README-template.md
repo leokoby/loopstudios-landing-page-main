@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://leokoby.github.io/loopstudios-landing-page-main/)
+- Live Site URL: [(https://leokoby.github.io/loopstudios-landing-page-main/](https://leokoby.github.io/loopstudios-landing-page-main/)
 
 ## My process
 
